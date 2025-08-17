@@ -11,7 +11,7 @@ How does a compact affordable device control 1800W of AC power?
 
 [Tapo smart switched outlet](https://github.com/slagdang/smart-outlet-t-reverse)
 
-[Meross smart switched power monitoring outlet](https://github.com/slagdang/merosssmartoutletreverse)
+[Meross smart switched power monitoring outlet](https://github.com/slagdang/rev-m-smart-switch)
 
 ## EcoBee smart thermostat power extender kit
 
