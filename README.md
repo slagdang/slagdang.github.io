@@ -1,28 +1,29 @@
 # slagdang.github.io
+
 This is a public website for my projects I wish to feature.
 
-## This first one is a teardown I did of a smart switched outlet I bought that uses matter for control
+## Smart switched outlets (2025)
 
-[Here is a KiCAD 9.x project with a reverse engineered schematic and PCB layout for this hardware.](https://github.com/slagdang/rev-m-smart-switch)
+The first two are teardowns of two (competing) smart switched outlets that I bought
+in 2025. One is from Tapo, one is from Meross. Both are affordable units.
 
-Pictures of the board in question are here. The switched outlet is sold by Meross. They describe it as a Matter smart plug, but it is a switched outlet on a small box which plugs into your wall outlet. It uses WiFi over IPv6 over WiFi. It does not use Thread. This is for US voltage and outlets. It was purchased in July 2025. The device allows switching of the outlet and measurement of the power and energy used by the connected device.
-#  
+How does a compact affordable device control 1800W of AC power?
 
-<img src="/m-switch-board-1.jpeg" width=500>
-<img src="/m-switch-board-2.jpeg" width=500>
-<img src="/m-switch-board-3.jpeg" width=500>
+[Tapo smart switched outlet](https://github.com/slagdang/smart-outlet-t-reverse)
 
-## This second one is a teardown I did of another smart switched outlet I bought that uses matter for control
+[Meross smart switched power monitoring outlet](https://github.com/slagdang/merosssmartoutletreverse)
 
-[Here is a KiCAD 9.x project with a reverse engineered schematic and PCB layout for this hardware.](https://github.com/slagdang/smart-outlet-t-reverse)
+## EcoBee smart thermostat power extender kit
 
-Pictures of the board in question are here. The switched outlet is sold by Tapo (TP-Link). They describe it as a Matter smart plug, but it is a switched outlet on a small box which plugs into your wall outlet. It uses WiFi over IPv6 over WiFi. It does not use Thread. This is for US voltage and outlets. It was purchased in July 2025. The device allows switching of the outlet and thus connected device.
-#  
+The second is a teardown of a device used by EcoBee to solve issues in retrofitting
+smart thermostats into older installations which do not provide power for the
+smart thermostat to operate.
 
-<img src="/t-switch-board-1.jpeg" width=500>
-<img src="/t-switch-board-2.jpeg" width=500>
-<img src="/t-switch-board-3.jpeg" width=500>
+Normally residential HVAC control requires one wire per function to be controlled
+plus one additional wire. So an install with heating, cooling and fan control will
+have four wires. Adding power for the thermostat requires an additional wire, for a
+total of five wires. When your home only has four wires in the wall this adapter
+is used to send the three control signals plus two wires for power over the existing
+four wires. How does it do it?
 
-
-#
-KiCAD is an open source and free electronics design CAD program. [See here for more information or to download.](https://kicad.org)
+[EcoBee power extender kit](https://github.com/slagdang/reverse_ecobeemux_175-00011-revD)
